@@ -13,11 +13,11 @@
 void InvertTransform::transform(const Chunk_iterator& c, AbsAudioFile& outFile) const
 { 
    // A Completer...
-	Chunk_iterator IteratorTemporary(c);
-	int i = 0;
-	int k = c->size(); - 1;
-	for (; i < c->size(); i++, k--) // i et k 2 compteurs inversement incrementés 
-		IteratorTemporary->get()[i] = c->get()[k];
+	Chunk_iterator iteratorCopy(c);
+	auto data = iteratorCopy->get();
+	size_t size = outFile.getChunkSize();
+	for (int i = 0 ; i < size / 2 ; i++) 
+		std::swap(data[i],data[size-i-1]);
 
-	outFile.addChunk(IteratorTemporary); //Ajouter le chunk a outFile 
+	outFile.addChunk(iteratorCopy); //Ajouter le chunk a outFile 
 }

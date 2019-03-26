@@ -1,14 +1,2 @@
-﻿  AbsTransform.cpp
-  AudioFile.cpp
-  Chunk.cpp
-  ChunkIterator.cpp
-  CompositeTransform.cpp
-  MemAudioFile.cpp
-g:\poly\h2019\log2410\log2410\tps\tp4-h19-codedepart\codedepart\memaudiofile.cpp(25): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-  RepeatTransform.cpp
-  InvertTransform.cpp
-g:\poly\h2019\log2410\log2410\tps\tp4-h19-codedepart\codedepart\inverttransform.cpp(18): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  Main.cpp
-  Test_TP4.cpp
-  Generating Code...
+﻿  InvertTransform.cpp
   PolyVersion.vcxproj -> G:\Poly\H2019\LOG2410\LOG2410\TPs\TP4-H19-CodeDepart\CodeDepart\x64\Debug\PolyVersion.exe
