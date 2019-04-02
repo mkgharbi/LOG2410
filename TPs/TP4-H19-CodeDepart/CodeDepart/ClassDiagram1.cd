@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AbsAudioFile">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAIAGQUgAEAAgAAAAAAARAAAAQAAAgAAHBIAEAAE=</HashCode>
+      <FileName>AbsAudioFile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MemAudioFile">
+    <Position X="7.5" Y="3.75" Width="1.5" />
+    <InheritanceLine Type="AbsAudioFile" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.938" Y="5.709" />
+        <Point X="5.938" Y="6.084" />
+        <Point X="6.875" Y="6.084" />
+        <Point X="6.875" Y="3.375" />
+        <Point X="7.938" Y="3.375" />
+        <Point X="7.938" Y="3.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAIAIACAQAAAAAAAAAIgAgSAAAEAAAAgAABAIAAAIE=</HashCode>
+      <FileName>MemAudioFile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AudioFile">
+    <Position X="2.75" Y="3.75" Width="1.5" />
+    <InheritanceLine Type="AbsAudioFile" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.188" Y="5.709" />
+        <Point X="5.188" Y="6.084" />
+        <Point X="4.625" Y="6.084" />
+        <Point X="4.625" Y="3.375" />
+        <Point X="3.625" Y="3.375" />
+        <Point X="3.625" Y="3.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAIAIACAQAAAAAAAAAAAAAQAAAIAAEAgAABAIAAQAE=</HashCode>
+      <FileName>AudioFile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
